@@ -1,0 +1,102 @@
+.mainInfo{
+    background-color: #1E213A;
+    position: relative;
+    
+    
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.contentMain{
+    height: 65%;
+    background-image: linear-gradient(rgba(30, 33, 58, 0.95),
+                rgba(30, 33, 58, 0.95)), url(../assets/Cloud-background.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+}
+
+.inputArea{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    margin-bottom: 30px;
+}
+
+.inputArea input {
+    color: #E7E7EB;
+    width: 160px;
+    height: 40px;
+    background-color: #6E707A;
+    outline: none;
+    border: none;
+    padding: 10px 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inputArea input::placeholder{
+    color: #E7E7EB;
+    font-weight: 500;
+}
+
+.inputArea button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #6E707A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.currentWeather{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.currentGrades{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    font-size: 50px;
+    color: #E7E7EB;   
+}
+
+.currentGrades small{
+    align-self: flex-end;
+    opacity: 0.5;
+    font-family: 'Raleway', 'sans-serif';
+    
+
+}
+
+.currentStatus {
+    display: flex;
+    justify-content: center;
+    margin: 24px 24px;
+    color: #E7E7EB;
+    opacity: 0.5;
+}
+
+.currentDate{
+    color: #E7E7EB;
+    font-weight: 500;
+    margin-bottom: 24px;
+    opacity: 0.5;
+}
+
+.currentLocation {
+    gap: 9px;
+    color: #E7E7EB;
+    font-weight: 500;
+   
+    opacity: 0.5;
+}
+

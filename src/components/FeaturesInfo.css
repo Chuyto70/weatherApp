@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap');
+
+
+.mainFeatures{
+    width: 100%;
+    height: 100%;
+   padding: 30px 60px;
+   background-color: #100E1D;
+    font-family: 'Raleway', 'sans-serif'
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.gradesContainer {
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+}
+button{
+    background-color: #585676;
+    color: #E7E7EB;
+    font-weight: 700;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.activeGrades{
+    color: #100E1D;
+    background-color: #E7E7EB;
+}
+
+.mainContentWeek{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 125px)) ;
+    gap: 24px;
+    padding: 3px;
+    margin-top: 30px;
+}
+
+.hightlightsContainer{
+    margin-top: 30px;
+    color: #E7E7EB;
+    font-weight: 700;
+}
+.hightlightsContainer > h2{
+    padding-left: 10px;
+}
+.hightlightsContent{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 370px));
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.hightlightsMainStyles{
+    background-color: #1E213A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 175px;
+    padding: 22px 0;
+}
+.hightlightsMainStyles h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.hightlightsMainStyles h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.hightlightsMainStyles h1 small {
+    font-size: 36px;
+    font-weight: 500;
+}
+.fa-location-arrow{
+    rotate: 180deg;
+}
+.wind{
+    width: 32px;
+    height: 32px;
+}
+.percentage{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.percentageIndicators{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.percentageIndicators small{
+    color: #A09FB1;
+}
+
+.footerWind{
+    display: flex;
+    gap: 10px;
+}
+.footerWind p {
+    align-self: center;
+    font-weight: 500;
+}
+
+.hightlightsSecondLine{
+    height: 140px;
+}
+
+progress{
+    accent-color: #FFEC65;
+}
+
+@media (max-width:800px) {
+    
+    .mainFeatures{
+        padding: 30px 30px;
+    }
+}
